@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- گروه دسته‌بندی با زیرمنو -->
+    <item
+        android:id="@+id/nav_category"
+        android:title="دسته‌بندی">
+        <menu>
+            <item
+                android:id="@+id/nav_women_clothing"
+                android:title="لباس زنانه"
+                app:destination="@id/clothingListFragment" />
+            <item
+                android:id="@+id/nav_men_clothing"
+                android:title="لباس مردانه"
+                app:destination="@id/clothingListFragment" />
+            <item
+                android:id="@+id/nav_kids_clothing"
+                android:title="لباس بچگانه"
+                app:destination="@id/clothingListFragment" />
+            <item
+                android:id="@+id/nav_special_offer"
+                android:title="فروش ویژه"
+                app:destination="@id/clothingListFragment" />
+        </menu>
+    </item>
+
+    <!-- گزینه‌های دیگر -->
+    <item
+        android:id="@+id/callUsFragment"
+        android:title="ارتباط با ما"
+        app:destination="@id/callUsFragment" />
+    <item
+        android:id="@+id/aboutUsFragment"
+        android:title="درباره ما"
+        app:destination="@id/aboutUsFragment" />
+</menu>

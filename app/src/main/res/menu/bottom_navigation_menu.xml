@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homeFragment"
+    android:enabled="true"
+    android:title="خانه"
+    android:icon="@drawable/baseline_home_24"
+    />
+
+    <item
+        android:id="@+id/shoppingcartFragment"
+        android:enabled="true"
+        android:title="خانه"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        />
+
+    <item
+        android:id="@+id/ordersFragment"
+        android:enabled="true"
+        android:title="خانه"
+        android:icon="@drawable/baseline_bookmark_24"
+        />
+
+    <item
+        android:id="@+id/signFragment"
+        android:enabled="true"
+        android:title="خانه"
+        android:icon="@drawable/baseline_person_add_24"
+        />
+</menu>

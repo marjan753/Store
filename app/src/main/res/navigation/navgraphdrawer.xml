@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraphdrawer"
+    app:startDestination="@id/clothingListFragment">
+
+    <fragment
+        android:id="@+id/clothingListFragment"
+        android:name="com.example.store.DrawerLayout.clothingListFragment"
+        tools:layout="@layout/fragment_clothing_list">
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/callUsFragment"
+        android:name="com.example.store.DrawerLayout.callusFragment"
+        tools:layout="@layout/fragment_callus" />
+
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.store.DrawerLayout.aboutusFragment"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>
