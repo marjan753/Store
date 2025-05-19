@@ -10,21 +10,21 @@
     <item
         android:id="@+id/shoppingcartFragment"
         android:enabled="true"
-        android:title="خانه"
+        android:title="سبد خرید"
         android:icon="@drawable/baseline_shopping_cart_24"
         />
 
     <item
         android:id="@+id/ordersFragment"
         android:enabled="true"
-        android:title="خانه"
+        android:title="سفارشات"
         android:icon="@drawable/baseline_bookmark_24"
         />
 
     <item
         android:id="@+id/signFragment"
         android:enabled="true"
-        android:title="خانه"
+        android:title="ورود"
         android:icon="@drawable/baseline_person_add_24"
         />
 </menu>
